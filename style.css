@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Lilita+One&family=Rubik:wght@500;800&family=Shadows+Into+Light&family=Signika:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Lato:wght@700&family=Lilita+One&family=Rubik:wght@500;800&family=Shadows+Into+Light&family=Signika:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Lato:wght@700&family=Lilita+One&family=Rubik:wght@500;600;800&family=Shadows+Into+Light&family=Signika:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@
     scroll-behavior: smooth;
     border: none;
     outline: none;
-    
+
 }
 
 :root {
@@ -48,7 +49,8 @@ header {
     border-bottom: 1px solid transparent;
     transition: all ease .50s;
 }
-#menu-icon{
+
+#menu-icon {
     font-size: 40px;
     color: var(--text-color);
     z-index: 1001;
@@ -56,18 +58,19 @@ header {
     display: none;
 
 }
+
 .logo span {
     color: yellow;
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
     margin-left: 20px;
     width: 100%;
     height: auto;
@@ -80,11 +83,11 @@ nav .ul {
 
 nav .ul li a {
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
     color: var(--second-color);
     font-size: 22px;
     font-weight: 500;
@@ -109,7 +112,7 @@ section {
     background-size: cover;
     background-position: center;
     background-position-y: 18%;
-background-position-x: 23em;
+    background-position-x: 23em;
 }
 
 .name h2 {
@@ -119,12 +122,12 @@ background-position-x: 23em;
     margin-bottom: 15px;
     word-spacing: 10px;
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
 }
 
 .name h1 {
@@ -178,7 +181,7 @@ font-family: 'Signika', sans-serif;
 .About .img {
     height: auto;
     width: 100%;
-    
+
 }
 
 .about-text h2 {
@@ -204,22 +207,22 @@ font-family: 'Signika', sans-serif;
     background: var(--secont-bg-color);
 }
 
-.service-text {
+.service-text,.projects-text {
     text-align: center;
 }
 
-.service-text h2 {
+.service-text h2,.projects-text h2 {
     font-size: var(--h2-font);
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.service-text h4 {
+.service-text h4,.projects-text h4 {
     font-size: 22px;
     font-weight: 500;
 }
 
-.service-container {
+.service-container,.projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -228,7 +231,7 @@ font-family: 'Signika', sans-serif;
     margin-top: 4rem;
 }
 
-.servicebox{
+.servicebox {
     padding: 45px 30px;
     background: var(--bg-color);
     border-radius: 0.8rem;
@@ -236,11 +239,20 @@ font-family: 'Signika', sans-serif;
     cursor: pointer;
     transition: all ease .50s;
 }
+.projectbox{
+    padding: 45px 30px;
+    border-radius: 0.8rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all ease .50s;
+    background: var(--secont-bg-color);
+}
 
-.servicebox:hover {
+.servicebox:hover,.projectbox:hover {
     transform: translateY(-10px);
     border: 1px solid var(--main-color);
 }
+
 
 .service i {
     font-size: 50px;
@@ -248,13 +260,13 @@ font-family: 'Signika', sans-serif;
     margin-bottom: 10px;
 }
 
-.service h3 {
+.service h3,.projects h3 {
     font-size: 23px;
     font-weight: 700;
     margin-bottom: 12px;
 }
 
-.service p {
+.service p,.projects p {
     color: var(--other-color);
     font-size: var(--p-font);
     line-height: 30px;
@@ -270,11 +282,11 @@ font-family: 'Signika', sans-serif;
 
 .contact1 {
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
     display: flex;
     align-items: center;
     text-align: center;
@@ -317,11 +329,11 @@ font-family: 'Signika', sans-serif;
     padding: 3px 0;
     transition: all ease .40s;
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
 }
 
 .contact2 a:hover {
@@ -332,11 +344,11 @@ font-family: 'Signika', sans-serif;
 
 .contact2 p {
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
     color: var(--other-color);
     font-size: var(--p-font);
     line-height: 30px;
@@ -359,11 +371,11 @@ footer h3 {
 
 footer p {
     font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lilita One', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Signika', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Signika', sans-serif;
     color: var(--other-color);
     font-size: var(--p-font);
     line-height: 30px;
@@ -402,3 +414,23 @@ font-family: 'Signika', sans-serif;
     padding: 9px;
     border-radius: 0.8rem;
 }
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress{
+    height: 100%;
+    background-color: #4CAF50;
+    animation: progress 2s forwards;
+    border-radius: 5px;
+  }
+  
+ @keyframes progress {
+    0% { width: 0; }
+    100% { }
+  }
+ 
