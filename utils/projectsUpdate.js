@@ -5,19 +5,19 @@
     desc : 'used to perform basic calculation'
 },
 {
-    link : '',
+    link : 'https://github.com/prince5607/Online-Railway-Reservation',
     img : 'img/projectImg/train-rail-logo.jpg',
     name : 'Railway Reseravation System',
     desc : 'used to perform basic calculation'
 },
 {
-    link : '',
+    link : 'https://github.com/prince5607/Amazon-Clone-Frontend-',
     img : 'img/projectImg/amazon.jpg',
     name : 'Amazon clone (Frontend)',
     desc : 'used to perform basic calculation'
 },
 {
-    link : '',
+    link : 'https://prince5607.github.io/calculator/',
     img : 'img/projectImg/istockphoto-544462430-1024x1024.jpg',
     name : 'Calculator',
     desc : 'used to perform basic calculation'
