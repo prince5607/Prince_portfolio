@@ -27,7 +27,14 @@
     img : 'img/projectImg/internet-banking-vector.jpg',
     name : 'Banking System',
     
-}
+},
+{
+    link : 'https://prince5607.github.io/Pokedex-Catalogue/',
+    img : 'img/projectImg/pokedex.png',
+    name : 'Pokedex Catalogue',
+    
+},
+                    
 ]
 
 export function addProject(){
