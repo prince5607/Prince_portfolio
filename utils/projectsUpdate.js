@@ -11,7 +11,7 @@
     desc : 'used to perform basic calculation'
 },
 {
-    link : 'https://github.com/prince5607/Amazon-Clone-Frontend-',
+    link : 'https://prince5607.github.io/Amazon-Clone-Frontend-/',
     img : 'img/projectImg/amazon.jpg',
     name : 'Amazon clone (Frontend)',
     desc : 'used to perform basic calculation'
@@ -20,12 +20,6 @@
     link : 'https://prince5607.github.io/calculator/',
     img : 'img/projectImg/istockphoto-544462430-1024x1024.jpg',
     name : 'Calculator',
-    desc : 'used to perform basic calculation'
-},
-{
-    link : '',
-    img : 'img/projectImg/to-do-list.jpg',
-    name : 'To-do List',
     desc : 'used to perform basic calculation'
 },
 {
