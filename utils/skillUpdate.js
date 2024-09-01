@@ -59,6 +59,19 @@
         level : 'Intermediate',
         progress : 65
     },
+    {
+        name : 'Node Js',
+        logo : 'bxl-nodejs',
+        level : 'Intermediate',
+        progress : 60
+    },
+    {
+        name : 'React Js',
+        logo : 'bxl-react',
+        level : 'Beginner',
+        progress : 40
+    },
+  
 ];
 
 export function addSkill(){
