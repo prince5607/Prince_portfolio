@@ -42,7 +42,7 @@ export function addProject(){
     projects.forEach((project)=>{
         projectHtml += ` <div class="projectbox">
                 <a href="${project.link}" target = "-main">
-                <img src="${project.img}" width="100px" height="100px" style="border-radius: 5%;">
+                <img src="${project.img}" width="100px" height="100px" style="border-radius: 5%;margin-bottom:4px">
                 <h3>${project.name}</h3>
             </a>
             </div>`;
