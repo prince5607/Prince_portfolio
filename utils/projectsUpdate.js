@@ -1,7 +1,7 @@
  const projects  = [{
-    link : 'https://prince5607.github.io/Landing_page/',
-    img : 'img/projectImg/landing-page.png',
-    name : 'Landing Page',
+    link : 'https://whizchat-0mtl.onrender.com/login',
+    img : 'img/projectImg/whizchat.png',
+    name : 'Whiz Chat',
    
 },
 {
@@ -14,18 +14,6 @@
     link : 'https://prince5607.github.io/Amazon-Clone-Frontend-/',
     img : 'img/projectImg/amazon.jpg',
     name : 'Amazon clone (Frontend)',
-    
-},
-{
-    link : 'https://prince5607.github.io/calculator/',
-    img : 'img/projectImg/istockphoto-544462430-1024x1024.jpg',
-    name : 'Calculator',
-    
-},
-{
-    link : 'https://github.com/prince5607/Banking_System',
-    img : 'img/projectImg/internet-banking-vector.jpg',
-    name : 'Banking System',
     
 },
 {
