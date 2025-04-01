@@ -24,7 +24,7 @@
 },
 {
     link : 'https://printsmasterhub.com/',
-    img : 'img/projectImg/pokedex.png',
+    img : 'img/projectImg/printsmasterhub.png',
     name : 'Print Master Hub',
     
 },
