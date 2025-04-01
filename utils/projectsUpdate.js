@@ -22,6 +22,12 @@
     name : 'Pokedex Catalogue',
     
 },
+{
+    link : 'https://printsmasterhub.com/',
+    img : 'img/projectImg/pokedex.png',
+    name : 'Print Master Hub',
+    
+},
                     
 ]
 
