@@ -24,7 +24,7 @@
 },
 {
     link : 'https://printsmasterhub.com/',
-    img : 'img/projectImg/printsmasterhub.png',
+    img : 'img/projectImg/printmasterhub.png',
     name : 'Print Master Hub',
     
 },
