@@ -17,15 +17,21 @@
     
 },
 {
-    link : 'https://prince5607.github.io/Pokedex-Catalogue/',
-    img : 'img/projectImg/pokedex.png',
-    name : 'Pokedex Catalogue',
-    
-},
-{
     link : 'https://printsmasterhub.com/',
     img : 'img/projectImg/printmasterhub.png',
     name : 'Print Master Hub',
+    
+},
+{
+    link : 'https://geekaxis.com/',
+    img : 'img/projectImg/geek.png',
+    name : 'Geek Axis',
+    
+},
+ {
+    link : 'https://digitalsignite.com/',
+    img : 'img/projectImg/digitals.png',
+    name : 'Digitals Ignite',
     
 },
                     
